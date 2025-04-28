@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html.body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  margin-top: 30px;
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url(https://picparcel.com/wp-content/uploads/2023/06/27-4-1024x1024.jpg);
+}
+.img {
+  margin-top: 10px;
+  height: 50%;
+  width: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 25%;
+}
+h1 {
+  color: #fff;
+}
+#card button {
+  margin-top: 10px;
+  background-color: cadetblue;
+  width: 140px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  font-size: bold;
+  cursor: pointer;
+}
+#card #remove {
+  background-color: rgb(84, 233, 68);
+  color: black;
+}
